@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.landing-page {
+  height: 811px;
+  position: relative;
+  background-image: linear-gradient(to bottom, #ffffff, #e2f1ff);
+}
+
+.why-qubly {
+  /* background-color: blueviolet; */
+  text-align: center;
+  padding-top: 90px;
+  width: 40%;
+}
+
+.why-qubly > h1 {
+  padding-top: 35px;
+  font-size: 36px;
+  font-family: "MetropolisRegular";
+  font-weight: medium;
+  line-height: 42px;
+}
+
+.three-steps {
+  display: flex;
+  justify-content: space-around;
+}
+
+.three-steps h3 {
+  font-size: 21px;
+  line-height: 27px;
+  font-family: "MetropolisRegular";
+  font-weight: medium;
+  padding-bottom: 16px;
+}
+
+/* For Launch Div */
+.launch {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 150px;
+}
+
+.launch-left,
+.launch-right {
+  width: 50%;
+}
+
+.launch-left img {
+  height: 430px;
+}
+
+.launch-right {
+  display: grid;
+  align-content: center;
+}
+
+.launch-right h1 {
+  padding-top: 35px;
+  font-size: 36px;
+  font-family: "MetropolisRegular";
+  font-weight: medium;
+  line-height: 42px;
+}
+
+/* For Launch Div */
+.pipeline {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 130px;
+}
+
+.pipeline-right {
+  width: 60%;
+}
+
+.pipeline-right img {
+  height: auto;
+  width: 100%;
+}
+
+.pipeline-left {
+  width: 40%;
+  display: grid;
+  align-content: center;
+}
+
+.pipeline-left h1 {
+  padding-top: 35px;
+  font-size: 36px;
+  font-family: "MetropolisRegular";
+  font-weight: medium;
+  line-height: 42px;
+}
+
+.testimonials {
+  position: relative;
+  height: 767px;
+  background-image: linear-gradient(to bottom, #f9f0ff, #e2f1ff);
+}
+
+.centered {
+  width: 70%;
+  margin: 0px auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.centered p {
+  font-size: 21px;
+  line-height: 27px;
+  font-family: "MetropolisRegular";
+  font-weight: regular;
+}
+
+.centered > img {
+  height: 80px;
+  width: 80px;
+  border-radius: 500px;
+  padding: 15px;
+}
+
+.centered > h4 {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "MetropolisRegular";
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.clients {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* For CTA */
+.cta {
+  padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cta-right,
+.cta-left {
+  width: 50%;
+}
+
+
+.cta-left h1 {
+  padding-top: 35px;
+  font-size: 36px;
+  font-family: "MetropolisRegular";
+  font-weight: medium;
+  line-height: 42px;
+}
+
+.cta p {
+  font-size: 16px;
+  font-family: "MetropolisRegular";
+  font-weight: medium;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 30px;
+  color: #8989a2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta p:before,
+.cta p:after {
+  background-color: #8989a2;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 30%;
+
+}
+
+.cta-left table {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.cta-left table tr td {
+  padding: 20px;
+}
+
+.cta-right {
+  width: 50%;
+  height: min-content;
+  background-color: #f9f0ff;
+}
+.signup {
+  transform: translateY(-30px);
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px 10px;
+  width: 70%;
+  margin: 0px auto;
+  box-shadow:0px 10px 20px #74747441;
+}
+form input {
+  padding-left: 10px;
+  height: 40px;
+  width: 90%;
+  background-color: #ffffff;
+  border: 1px solid #8989a2;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.sgn-btn{
+  margin : 10px 0px;
+  background-color: #722ED1;
+  font-size: 14px;
+  font-family: "MetropolisRegular";
+  font-weight: medium;
+  height: 40px;
+  width: 90% ;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0px 3px 6px #00000042;
+  color: #ffffff;
+}
+/* For mobile view */
+@media only screen and (max-width: 600px) {
+}
